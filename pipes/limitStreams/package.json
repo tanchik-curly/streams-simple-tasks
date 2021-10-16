@@ -1,0 +1,19 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "Основна перевага стрімів полягає в тому, що ми не працюємо з усіма даними відразу і\r економимо ресурси комп'ютера. Однак іноді це може бути і недоліком тому що\r ми не знаємо в процесі роботи скільки даних ми вже обробили.",
+  "main": "LimitExceededError.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2",
+    "sinon": "^11.1.2"
+  }
+}
